@@ -1,6 +1,6 @@
 <div align="center"><p><a href="./README.md"><img src="https://img.shields.io/badge/EN-white" alt="version"></a>  <a href="./README_ja.md"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> </p></div>
 
-# Arm Software Stack for Zena CSS
+# Arm Reference Software Stack for Zena CSS
 
 ## 🔒 初めに
 
@@ -31,7 +31,7 @@ Arm Automotive Solutions は親プロジェクトであり、特定世代の Arm
 
 ## 0. 🔶ホストで非特権ユーザー名前空間を有効化する
 
-このソフトウェアスタックを実行する前に、ホストマシンで非特権ユーザー名前空間を有効化する必要があります。
+このリファレンスソフトウェアスタックを実行する前に、ホストマシンで非特権ユーザー名前空間を有効化する必要があります。
 以下のコマンドを実行するには、root 権限が必要です。
 
 ※ これらの設定はホスト再起動後にリセットされます。
@@ -197,6 +197,6 @@ tmux new-session -s arm-auto-solutions
 
 ## 📚 参考資料
 
-- [Arm® Automotive Solutions Documentation](https://arm-auto-solutions.docs.arm.com/en/v2.1/index.html)
+- [Arm Automotive Solutions Documentation](https://arm-auto-solutions.docs.arm.com/en/v2.1/index.html)
 - [Arm Automotive Solutions Repository](https://gitlab.arm.com/automotive-and-industrial/arm-auto-solutions/sw-ref-stack)
 - [Arm Zena Compute Subsystem (CSS) FVP](https://developer.arm.com/Tools%20and%20Software/Fixed%20Virtual%20Platforms/Automotive%20FVPs)

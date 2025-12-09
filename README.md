@@ -1,6 +1,6 @@
 <div align="center"><p><a href="./README.md"><img src="https://img.shields.io/badge/EN-white" alt="version"></a>  <a href="./README_ja.md"><img src="https://img.shields.io/badge/日本語-white" alt="version"></a> </p></div>
 
-# Arm Software Stack for Zena CSS
+# Arm Reference Software Stack for Zena CSS
 
 ## 🔒 Preface
 
@@ -31,7 +31,7 @@ It contains BSPs (board support packages) for the following child projects:
 
 ## 0. 🔶Enable Unprivileged User Namespaces on the Host
 
-You need root privileges on the host machine to run the following commands, which enable unprivileged user namespaces before launching this software stack.
+You need root privileges on the host machine to run the following commands, which enable unprivileged user namespaces before launching this reference software stack.
 
 ※ These settings will reset after the host is rebooted.
 ```bash
@@ -204,6 +204,6 @@ These are essential for debugging different system domains and privilege levels.
 
 ## 📚 References
 
-- [Arm® Automotive Solutions Documentation](https://arm-auto-solutions.docs.arm.com/en/v2.1/index.html)
+- [Arm Automotive Solutions Documentation](https://arm-auto-solutions.docs.arm.com/en/v2.1/index.html)
 - [Arm Automotive Solutions Repository](https://gitlab.arm.com/automotive-and-industrial/arm-auto-solutions/sw-ref-stack)
 - [Arm Zena Compute Subsystem (CSS) FVP](https://developer.arm.com/Tools%20and%20Software/Fixed%20Virtual%20Platforms/Automotive%20FVPs)
